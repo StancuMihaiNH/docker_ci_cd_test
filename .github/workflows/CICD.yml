@@ -17,7 +17,7 @@ jobs:
         run: docker-compose -f compose.yaml up -d
 
       - name: Run tests (replace with your actual test command)
-        run: docker-compose -f compose.yaml exec app yarn test
+        run: docker-compose -f compose.yaml exec -T app yarn test
 
       - name: Tear down Docker Compose
         run: docker-compose -f compose.yaml down
