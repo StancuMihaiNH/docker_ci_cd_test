@@ -168,7 +168,7 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
                         aria-label="Remove Item"
                     >
                         <i className="fa fa-trash text-danger" />
-                        <p>Sunt Mihai Stancu</p>
+                        <p>Sunt Mihai Stancu Cristian</p>
                     </Button>
                 </Col>
             </Row>
